@@ -5,7 +5,7 @@ var mergeTrees  = require('broccoli-merge-trees');
 var log = require('broccoli-stew').log;
 
 module.exports = {
-  name: 'ember-cli-polymer',
+  name: 'poc-ember-cli-polymer',
   get outputDir() {
     return this.name + '/assets/';
   },
